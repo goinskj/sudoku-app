@@ -28,10 +28,43 @@
   color: #61dafb;
 }
 
+.cellInput {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0px;
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px solid cyan;
+  background-color: cyan;
+}
+
+.buttonContainer {
+  margin-top: 20px;
+}
+
+.checkAnswerButton {
+  background-color: orange;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+td {
+  padding: 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

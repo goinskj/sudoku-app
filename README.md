@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+# Sukoku Browser App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## How it works
+The grid is stateful. We are using the useState hook to capture changes in the values of our sudoku grid. 
+
+Each time we want to check if the value are correct, we take the entire current grid state values, validate the entries, then compare to the correct grid state values which are known. 
+
+When checking for grid submission validity, we first make sure that the value is unique per the row, per the column, and per the box. Each has its own function repsectively which is referenced in the main validity checking function. 
+
+We want to progress to the next value when verifying for validity, so we implement a function for this with conditions associated with the index of the current value. 
+
+We use a "solver" function to do most of the heavy lifting which ultimately lets us know if our attempt was successfull or not. 
+
+* End *
+
+
+
+
+
 
 ## Available Scripts
 
